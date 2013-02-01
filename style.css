@@ -1,0 +1,327 @@
+body
+{
+background-image: url('images/background.jpg');
+background-attachment: fixed;
+overflow: scroll;
+font-family: News Gothic MT, Verdana;
+font-size: 12pt;
+text-align: center;
+}
+
+a
+{
+font-family: Ethon Romain, sans-serif, Arial, sans-serif;
+font-size: 13pt;
+color: #201457;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #159599;
+text-decoration: underline;
+}
+
+p
+{
+margin-bottom: 5px;
+}
+
+#logo
+{
+margin-top: 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+#main
+{
+width: 1010px;
+text-align: left;
+margin-top: 0;
+margin: 0 auto;
+}
+
+#restricted
+{
+margin-top: 8%;
+}
+
+#table_main
+{
+padding: 0;
+margin: 0 auto;
+min-height: 1000px;
+/*	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;*/
+}
+
+
+
+#list-nav
+{
+margin-bottom: 0px;
+list-style: none;
+float: left;
+}
+
+#list-nav li
+{
+margin: 5px 10px 5px 5px;
+float: left;
+position: relative;
+}
+
+#list-nav li a
+{
+display: block;
+text-decoration: none;
+padding: 10px 10px 2px 10px;
+color: #7d7d7d;
+font-weight: bold;
+font-size: 14pt;
+}
+
+#list-nav li a:hover
+{
+color: black;
+
+}
+
+#list-nav ul
+{
+background: #ffffff;
+background:rgba(255,255,255,0);
+list-style: none;
+position: absolute;
+left: -9999px;
+}
+
+#list-nav ul li
+{
+z-index: 999;
+margin: 0px;
+float: left;
+position: relative;
+}
+
+#list-nav ul a
+{
+font-weight: normal;
+font-size: 12pt;
+width: 180px;
+border: 1px solid #52d1d1;
+}
+
+#list-nav li:hover ul
+{
+left: -35;
+}
+
+#list-nav li:hover a
+{
+color: #159599;
+}
+
+#list-nav li:hover ul a
+{
+color: black;
+padding: 10px 5px 10px 5px;
+background: #8dd9d9;
+text-decoration: none;
+}
+
+#list-nav li:hover ul li a:hover
+{
+color: #ffffff;
+background: #159599;
+}
+
+
+
+
+#side_menu
+{
+background-image: url('images/bg2.jpg');
+background-image: repeat-x;
+color: white;
+vertical-align: top;
+width: 300px;
+margin: 0;
+padding: 0;
+/*border-radius: 4px 0 0 0;*/
+}
+
+#side_menu_title
+{
+font-family: "Ethon Romain", sans-serif, "Verdana", sans-serif;
+font-size: 18pt;
+font-weight: bold;
+color: #f5d41b;
+margin: 10px 20px 0 10px;
+}
+
+#side_menu_content
+{
+font-size: 10pt;
+padding: 0 20px 0 10px;
+margin: 0px;
+}
+
+ul#side-nav
+{
+padding: 15px;
+list-style: none;
+}
+
+ul#side-nav li
+{
+margin-top: 5px;
+margin-bottom: 8px;
+}
+
+ul#side-nav li a
+{
+text-decoration: none;
+color: white;
+font-weight: bold;
+font-size: 14pt;
+}
+
+ul#side-nav li a:hover
+{
+color: #f5d41b;
+}
+
+#news
+{
+vertical-align: top;
+height: 800px;
+padding: 0 0 50px 20px;
+margin-top: 0px;
+background: #ffffff;
+}
+
+#header
+{
+height: 25px;
+background-color: #201457;
+color: white;
+padding: 7px 3px 3px 5px;
+margin-top: 20px;
+margin-bottom: 0px;
+font-weight: bold;
+margin-right: 30px;
+}
+
+.page_title
+{
+font-family: "Tall Films Expanded", sans-serif, Verdana;
+font-size: 50pt;
+color: #159599;
+margin: 10px 0 15px 0;
+width: 650px;
+border-bottom: 1px solid #159599;
+}
+
+#side_content
+{
+padding: 30px 0 10px 15px;
+background-image: url('images/sidebg.jpg');
+background-repeat: repeat-y;
+vertical-align: top;
+width: 250;
+}
+
+#main_content
+{
+color: #000000;
+margin: 1px 15px 1px 0;
+font-size: 13pt;
+padding: 25px 10px 60px 0;
+border-bottom: 1px solid #b0b0b0;
+border-top: 1px solid #b0b0b0;
+}
+
+#main_content a
+{
+font-size: 11pt;
+font-weight: normal;
+float: right;
+}
+
+#main_page_title
+{
+font-family: "Tall Films Expanded", sans-serif, Verdana;
+color: #159599;
+font-size: 40pt;
+margin: 20px 15px 0 0;
+border-bottom: 1px solid #b0b0b0;
+padding-bottom: 10px;
+}
+
+#main_title
+{
+font-family: "Ethon Romain", sans-serif;
+color: #201457;
+font-size: 20pt;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+#news_content
+{
+color: black;
+font-family: "News Gothic MT", sans-serif;
+font-size: 11pt;
+margin: 0 200px 0 0;
+}
+
+.news_img
+{
+margin: 0 20px 20px 15px; 
+float: right;
+}
+
+#content
+{
+margin: 5px 35px 25px 0;
+font-family: "News Gothic MT", sans-serif;
+font-size: 11pt;
+}
+
+.content_title
+{
+font-family: "Ethon Romain", sans-serif, Verdana;
+margin: 15px 0 10px 0;
+color: #201457;
+font-size: 20pt;
+}
+
+#foot
+{
+background: #ffffff;
+font-size: 11pt;
+color: #000000;
+border-top: 2px solid #7d7d7d;
+
+padding: 35px 0 35px 10px;
+/*border-radius: 0 0 4px 4px;*/
+}
+
+#name_title
+{
+font-family: "News Gothic MT", sans-serif;
+font-weight: bold;
+font-size: 11pt;
+color: #201457;
+}
+
+#people td
+{
+vertical-align: top;
+text-align: center;
+width: 160px;
+padding: 10px 0 10px 0;
+}
